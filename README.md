@@ -1,4 +1,4 @@
-# Complete Java Course 
+# Complete Java Course
 
 A structured Java learning repository covering the journey from Core Java fundamentals to advanced Java development concepts.
 
@@ -14,13 +14,14 @@ It includes:
 
 - Conceptual explanations
 - Architecture diagrams
-- Runnable Java programs
+- Runnable Java programs (where applicable)
 - Practical examples
 - Interview-focused notes
 
 The repository will be updated continuously as new topics are completed throughout the learning journey.
 
 ---
+
 ## 📂 Project Structure
 
 ```text
@@ -28,6 +29,7 @@ COMPLETE-JAVA-COURSE
 │
 ├── 01-Java-Introduction
 ├── 02-Java-Fundamentals
+├── 03-Object-Oriented-Programming
 ├── LICENSE
 └── README.md
 ```
@@ -46,6 +48,10 @@ Object-Oriented Programming (OOP)
 Exception Handling
         ↓
 Collections Framework
+        ↓
+Multithreading
+        ↓
+File Handling
         ↓
 Advanced Java
         ↓
@@ -67,12 +73,13 @@ Topics covered:
 - Java Installation & Setup
 - JShell
 - Java Program Execution Flow
-- Hello World Program - Internal Working
+- Hello World Program – Internal Working
 - JDK, JRE & JVM
+- JVM Memory Management (Stack & Heap)
 
 ---
 
-### ✅ 02 - Java Fundamentals *(In Progress)*
+### ✅ 02 - Java Fundamentals
 
 Topics covered:
 
@@ -80,8 +87,19 @@ Topics covered:
 - Type Conversion & Type Casting
 - Type Promotion
 - Operators
+- Conditional Statements
+- Loops
 
-More topics will be added as the learning progresses.
+---
+
+### 🚧 03 - Object-Oriented Programming (In Progress)
+
+Topics covered:
+
+- Class & Object
+- Method Overloading
+
+More OOP concepts will be added as the learning progresses.
 
 ---
 
@@ -112,4 +130,6 @@ The objective is to understand not just **how to write Java code**, but also **h
 
 ---
 
-##  Author ~ Jayasudha Mudaliyar
+## 👩‍💻 Author
+
+**Jayasudha Mudaliyar**

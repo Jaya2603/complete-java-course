@@ -1,6 +1,6 @@
 # Java Introduction
 
-This module introduces the fundamental concepts required to start programming in Java. It covers setting up the Java development environment, understanding how Java programs are compiled and executed, exploring the Java runtime architecture, and writing the first Java program.
+This module introduces the fundamental concepts required to start programming in Java. It covers setting up the Java development environment, understanding how Java programs are compiled and executed, exploring the Java runtime architecture, JVM memory management, and writing the first Java program.
 
 The topics in this module provide the foundation for learning Core Java and understanding how Java applications work internally.
 
@@ -96,6 +96,26 @@ Includes architecture diagrams.
 
 ---
 
+### 6. JVM Memory Management
+
+Understand how the JVM manages memory during program execution.
+
+Topics include:
+
+- Stack Memory
+- Heap Memory
+- Stack vs Heap
+- Local variables
+- Objects and reference variables
+- Memory allocation
+- Garbage Collection (Introduction)
+
+Includes memory diagrams.
+
+📄 **File:** `06-JVM-Memory-Management.md`
+
+---
+
 ## 🎯 Learning Outcome
 
 After completing this module, you will be able to:
@@ -104,6 +124,7 @@ After completing this module, you will be able to:
 - Write and execute Java programs
 - Understand the Java compilation and execution process
 - Explain the roles of JDK, JRE, and JVM
+- Understand JVM memory management, including Stack and Heap memory
 - Understand the internal workflow of a Java application
 
 ---
@@ -120,5 +141,6 @@ After completing this module, you will be able to:
 ├── 02-JShell.md
 ├── 03-Java-Program-Execution-Flow.md
 ├── 04-Hello-World-Program-Internal-Working.md
-└── 05-JDK-JRE-JVM.md
+├── 05-JDK-JRE-JVM.md
+└── 06-JVM-Memory-Management.md
 ```
