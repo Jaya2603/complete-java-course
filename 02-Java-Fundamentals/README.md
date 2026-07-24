@@ -1,6 +1,6 @@
 # Java Fundamentals
 
-This module covers the core building blocks of the Java programming language. It introduces essential concepts such as data types, operators, control flow, and type conversions that form the foundation for writing Java programs.
+This module covers the core building blocks of the Java programming language. It introduces essential concepts such as data types, variables, operators, control flow, and type conversions that form the foundation for writing Java programs.
 
 The topics in this module provide the knowledge required before moving on to Object-Oriented Programming and other advanced Java concepts.
 
@@ -74,7 +74,26 @@ Topics include:
 
 ---
 
-### 5. Conditional Statements
+### 5. Variables in Java
+
+Learn how variables are declared, stored, and used in Java programs.
+
+Topics include:
+
+- Types of Variables
+- Local Variables
+- Instance Variables
+- Class (Static) Variables
+- Memory Allocation
+- Reference Variables
+- Variable Scope
+- Default Values
+
+📄 **Folder:** `05-Variables-in-Java`
+
+---
+
+### 6. Conditional Statements
 
 Learn how to control program execution using decision-making statements.
 
@@ -87,11 +106,11 @@ Topics include:
 - `switch`
 - Enhanced `switch`
 
-📄 **Folder:** `05-Conditional-Statements`
+📄 **Folder:** `06-Conditional-Statements`
 
 ---
 
-### 6. Loops
+### 7. Loops
 
 Learn how to execute a block of code repeatedly using loops.
 
@@ -105,7 +124,7 @@ Topics include:
 - `break`
 - `continue`
 
-📄 **Folder:** `06-Loops`
+📄 **Folder:** `07-Loops`
 
 ---
 
@@ -113,12 +132,13 @@ Topics include:
 
 After completing this module, you will be able to:
 
-- Understand Java data types and variables
-- Perform type conversion and type casting
-- Explain Java's type promotion rules
-- Use different operators effectively
-- Implement decision-making using conditional statements
-- Write programs using loops and control flow statements
+- Understand Java data types and variables.
+- Perform type conversion and type casting.
+- Explain Java's type promotion rules.
+- Use different operators effectively.
+- Understand variable scope, memory allocation, and reference variables.
+- Implement decision-making using conditional statements.
+- Write programs using loops and control flow statements.
 
 ---
 
@@ -132,6 +152,7 @@ After completing this module, you will be able to:
 ├── 02-Type-Conversion-and-Casting
 ├── 03-Type-Promotion
 ├── 04-Operators
-├── 05-Conditional-Statements
-└── 06-Loops
+├── 05-Variables-in-Java
+├── 06-Conditional-Statements
+└── 07-Loops
 ```

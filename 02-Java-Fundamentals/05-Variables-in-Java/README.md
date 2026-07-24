@@ -106,6 +106,84 @@ Different types of variables are stored in different memory areas.
 
 ---
 
+## Reference Variables
+
+A reference variable stores the memory address (reference) of an object instead of the actual object.
+
+### Key Idea
+
+- Objects are stored in **Heap memory**.
+- Reference variables are stored in **Stack memory**.
+- A reference variable points to an object in Heap memory.
+
+### Example
+
+```java
+class Student {
+    int id;
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Student s1 = new Student();
+    }
+}
+```
+
+Here:
+
+- `new Student()` creates a `Student` object in Heap memory.
+- `s1` is a reference variable that points to the object.
+
+### Multiple Reference Variables
+
+Multiple reference variables can point to the same object.
+
+```java
+class Student {
+    int id;
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Student s1 = new Student();
+        Student s2 = s1;
+
+        s1.id = 101;
+
+        System.out.println(s2.id);
+    }
+}
+```
+
+**Output**
+
+```text
+101
+```
+
+Since both `s1` and `s2` point to the same object, changes made using one reference are reflected through the other.
+
+### Null Reference
+
+A reference variable can point to nothing using the `null` keyword.
+
+```java
+Student s = null;
+```
+
+Here, `s` does not point to any object.
+
+### Reference Variable vs Primitive Variable
+
+| Feature | Reference Variable | Primitive Variable |
+|---------|--------------------|--------------------|
+| Stores | Memory address | Actual value |
+| Memory | Stack (reference) + Heap (object) | Stack |
+| Example | `Student s` | `int x = 10` |
+
+---
+
 ## Variable Scope
 
 <p align="center">
@@ -163,4 +241,5 @@ Only **instance variables** and **class variables** receive default values autom
 - Local variables are stored in Stack memory.
 - Instance variables are stored in Heap memory.
 - Class variables are stored in the Method Area (Metaspace).
+- Reference variables store the memory address of objects created in Heap memory.
 - Local variables must be initialized before use.

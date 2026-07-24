@@ -87,6 +87,7 @@ Topics covered:
 - Type Conversion & Type Casting
 - Type Promotion
 - Operators
+- Variables in Java
 - Conditional Statements
 - Loops
 
